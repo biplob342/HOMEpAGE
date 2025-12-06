@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>2D Plane Game</title>
+  <link rel="stylesheet" href="style2.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>2D Plane — HTML5 Canvas Game</h1>
+      <div class="controls">
+        <div id="hud">Score: <span id="score">0</span> | Lives: <span id="lives">3</span></div>
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </header>
+
+    <canvas id="gameCanvas" width="960" height="600"></canvas>
+
+    <div class="touch-controls">
+      <button id="leftTouch">◀</button>
+      <button id="upTouch">▲</button>
+      <button id="fireTouch">●</button>
+      <button id="downTouch">▼</button>
+      <button id="rightTouch">▶</button>
+    </div>
+
+    <div class="footer">
+      Controls: Arrow keys / WASD to move, Space to shoot.
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

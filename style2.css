@@ -1,0 +1,16 @@
+:root{ --bg:#0b1220; --panel:#0f1724; --accent:#57c7ff; --danger:#ff6b6b }
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial}
+body{background:linear-gradient(180deg,var(--bg),#07101a);display:flex;align-items:center;justify-content:center;padding:20px;color:#e6eef6}
+.wrapper{width:980px;max-width:100%;background:rgba(255,255,255,0.02);border-radius:12px;padding:14px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+header{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+h1{font-size:18px;margin:0}
+.controls{margin-left:auto;display:flex;gap:8px;align-items:center}
+button{background:transparent;border:1px solid rgba(255,255,255,0.08);padding:6px 10px;border-radius:8px;color:inherit;cursor:pointer}
+button:hover{border-color:rgba(255,255,255,0.14)}
+#hud{display:flex;gap:12px;align-items:center;font-weight:600}
+canvas{display:block;background:linear-gradient(180deg, rgba(10,18,30,0.7), rgba(3,8,14,0.9));border-radius:8px;width:100%;height:600px}
+.touch-controls{display:none;margin-top:10px;gap:8px}
+.touch-controls button{flex:1}
+.footer{margin-top:10px;font-size:13px;opacity:0.85}
+@media (max-width:700px){canvas{height:480px}.touch-controls{display:flex}}

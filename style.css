@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+
+}
+
+body{
+   
+    background-image: url("img/newbg2.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+       display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.589) ;
+}
+
+
+
+.object1{
+    height: 400px;
+    width: 5px;
+    background-color: rgb(80, 80, 80);
+    box-shadow: -100px 0px 30px 10px black;
+     animation: con 3.5s ease-in-out infinite;
+}
+#connector1{
+    height: 40px;
+    width: 40px;
+    background-color: #8b8888;
+    border-radius: 10px;
+    box-shadow: -100px 0px 30px 0px black;
+    position: relative;
+    top: 400px;
+    right: 17px;
+     animation: con 3s ease-in-out infinite;
+}
+#bulb1{
+    background-color: rgb(95, 4, 4);
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 385px;
+    right: 40px;
+    box-shadow: 0px 0px 1000px 500px rgba(255, 0, 0, 0);
+    box-shadow: -100px 0px 30px 0px black;
+    transition: all .5s ease-in-out;
+    animation: swing 3s ease-in-out infinite;
+}
+
+#btn1{
+    height: auto;
+    width: auto;
+    background-color: #8b888800;
+    position: relative;
+    top: 40%;
+    left: 20%;
+    font-size: 1.5rem;
+    border: none;
+    color: rgb(95, 4, 4);
+}
+
+
+#bulb1:hover{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 0px 800px 400px rgba(255, 0, 0, 0.220);
+    
+}
+
+.object2{
+    height: 500px;
+    width: 5px;
+    background-color:  rgb(80, 80, 80);
+    box-shadow: 50px 0px 30px 2px black;
+     animation: con 5.5s ease-in-out infinite;
+}
+#connector2{
+    height: 40px;
+    width: 40px;
+    background-color: #8b8888;
+    border-radius: 10px;
+    box-shadow: 50px 0px 30px 2px black;
+    position: relative;
+    top: 500px;
+    right: 17px;
+     animation: con 5.5s ease-in-out infinite;
+}
+#bulb2{
+    background-color: rgb(110, 110, 11);
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 485px;
+    right: 40px;
+    box-shadow: 0px 0px 1000px 500px rgba(255, 255, 0, 0);
+    box-shadow: 50px 0px 30px 2px black;
+    transition: all .5s ease-in-out;
+    animation: swing 5.5s ease-in-out infinite;
+}
+#btn2{
+    height: auto;
+    width: auto;
+    background-color: #8b888800;
+    position: relative;
+    top: 40%;
+    left: 15%;
+    font-size: 1.5rem;
+    border: none;
+    color: rgb(110,110,11);
+}
+#bulb2:hover{
+    background-color: rgb(251, 255, 0);
+    box-shadow: 0px 0px 800px 400px rgba(255, 255, 0, 0.200);
+}
+
+.object3{
+    height: 300px;
+    width: 5px;
+    background-color:  rgb(80, 80, 80);
+    box-shadow: 20px 0px 20px 5px black;
+     animation: con 4s ease-in-out infinite;
+}
+#connector3{
+    height: 40px;
+    width: 40px;
+    background-color: #8b8888;
+    border-radius: 10px;
+    box-shadow: 20px 0px 20px 5px black;
+    position: relative;
+    top: 300px;
+    right: 17px;
+     animation: con 4s ease-in-out infinite;
+}
+#bulb3{
+    background-color: rgb(8, 90, 8);
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 285px;
+    right: 40px;
+    box-shadow: 0px 0px 1000px 500px rgba(0, 255, 0, 0);
+    box-shadow: 20px 0px 20px 5px black;
+    transition: all .5s ease-in;
+    animation: swing 4s ease-in-out infinite;
+}
+#btn3{
+    height: auto;
+    width: auto;
+    background-color: #8b888800;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    font-size: 1.5rem;
+    border: none;
+    color: rgb(8,90,8);
+}
+#bulb3:hover{
+    background-color: lime;
+    box-shadow: 0px 0px 800px 400px rgba(0, 255, 0, 0.200);
+}
+
+.object4{
+    height: 550px;
+    width: 5px;
+    background-color:  rgb(80, 80, 80);
+    box-shadow: 100px 0px 30px 0px black;
+    
+    animation: rod 8s ease-in-out infinite;
+
+}
+#connector4{
+    height: 40px;
+    width: 40px;
+    background-color: #8b8888;
+    border-radius: 10px;
+    box-shadow: 100px 0px 30px 0px black;
+    position: relative;
+    top: 550px;
+    right: 17px;
+    animation: con 8s ease-in-out infinite;
+}
+#bulb4{
+    background-color: rgb(97, 12, 97);
+    height: 100px;
+    width: 90px;
+    border-radius: 50%;
+    position: relative;
+    top: 535px;
+    right: 40px;
+    box-shadow: 0px 0px 1000px 500px rgba(255, 0, 255, 0);
+    box-shadow: 100px 0px 30px 0px black;
+    transition: all .5s ease-out;
+    animation: swing 8s ease-in-out infinite;
+}
+#btn4{
+    height: auto;
+    width: auto;
+    background-color: #8b888800;
+    position: relative;
+    top: 25%;
+    left: 15%;
+    font-size: 1.5rem;
+    border: none;
+    color: rgb(97,12,97);
+}
+#bulb4:hover{
+    background-color: magenta;
+    box-shadow: 0px 0px 800px 400px rgba(255, 0, 255, 0.205);
+}
+
+
+@keyframes swing{
+    0%{
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-5px);
+    }
+}
+@keyframes con{
+    0%{
+        transform: translateX(-3px);
+    }
+    50% {
+        transform: translateX(6px);
+    }
+    100% {
+        transform: translateX(-3px);
+    }
+}
+@keyframes rod{
+    0%{
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
